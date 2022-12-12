@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/filtofil/ig-scraper/issues"
   },
-  "homepage": "https://github.com/filtofil/ig-scraper#readme"
+  "homepage": "https://github.com/filtofil/ig-scraper#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
